@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Runtime
+vm_monitor.pid
+vm_monitor.log
+vm_monitor.db
+
+# Configuration (keep config.env template, but ignore runtime changes)
+.master_key
+config.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
